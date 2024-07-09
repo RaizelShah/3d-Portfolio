@@ -28,6 +28,7 @@ import mysql from './mysql.svg'
 import getpostman from './getpostman.svg'
 import photoshop from './photoshop.png'
 import linux from './linux.png'
+import instagram from './instagram.svg
 
 export {
     css,
@@ -59,5 +60,6 @@ export {
     mysql,
     getpostman,
     photoshop,
-    linux
+    linux,
+    instagram
 }
