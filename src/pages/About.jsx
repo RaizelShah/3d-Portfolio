@@ -7,7 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
 import { Link } from "react-router-dom";
-import { github, linkedin } from "../assets/icons";
+import { github, linkedin , instagram} from "../assets/icons";
 
 const About = () => {
   return (
@@ -151,7 +151,7 @@ const About = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="src/assets/icons/instagram.svg"
+                  src={instagram}
                   alt="Instagram"
                 />
               </Link>
