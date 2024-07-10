@@ -7,7 +7,7 @@ This website is your portal into my world of creativity, built with the dynamic 
 
 ## Exploring the Site:
 
-Feel free to navigate through the different sections using the intuitive menu (or those fancy 3D buttons you implemented, if applicable).  Here's a sneak peek of what you might find:
+Feel free to navigate through the different sections using the intuitive Navbar. Here's a sneak peek of what you might find:
 
 ### About Me: Get to know the mind behind the magic! This section showcases my skills, experience, and my social links.
 ### Projects: Dive into a curated selection of my best work.
