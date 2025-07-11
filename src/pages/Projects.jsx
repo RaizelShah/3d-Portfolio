@@ -15,12 +15,19 @@ const Projects = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500 items-center justify-center">
         <p className="text-justify">
-          Welcome to my project gallery! Here you'll find a collection of
-          projects showcasing my skills in front-end development, particularly
-          with a focus on creating user-friendly interfaces (UI) and exceptional
-          user experiences (UX). Dive in and explore some of my creations,
-          including my personal take on a video conferencing app a testament to
-          my passion for building interactive and engaging experiences.
+          Welcome to my project gallery! A curated collection of projects that
+          reflect my journey in full-stack web and mobile development. With a
+          strong foundation in front-end design and real-world experience in
+          backend integration, I’ve built applications that are both
+          user-friendly and technically robust.
+          <br />
+          From responsive dashboards and mobile utilities to a custom-built
+          video conferencing app, my projects showcase skills in UI/UX, API
+          integration, state management, and performance optimization. One of my
+          standout creations, Interview-Prep, features AI-powered features and
+          intelligent API integrations to help users prepare smarter — a
+          testament to my ability to work with modern AI tools and backend
+          systems.
         </p>
       </div>
 

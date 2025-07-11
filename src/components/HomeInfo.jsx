@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         Hi, I'm
         <span className="font-semibold mx-2 text-white">Raizel</span>
         👋
-        <br />A Pre-Final year Student from VIT, Vellore 🇮🇳
+        <br />A Final year Student from VIT, Vellore 🇮🇳
       </h1>
     );
 
@@ -49,7 +49,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Want to collaborate? <br /> I'm just a few
+          Want to Contact Me? <br /> I'm just a few
           keystrokes away
         </p>
 

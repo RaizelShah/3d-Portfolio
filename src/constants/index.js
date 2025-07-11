@@ -12,6 +12,7 @@ import {
   nextjs,
   nodejs,
   react,
+  reactNative,
   tailwindcss,
   typescript,
   C,
@@ -134,7 +135,11 @@ export const skills = [
     name: "React",
     type: "Frontend",
   },
-
+  {
+    imageUrl: reactNative,
+    name: "React Native",
+    type: "Frontend",
+  },
   {
     imageUrl: nextjs,
     name: "Next.js",
@@ -159,15 +164,16 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Management",
-    company_name: "Team Sammard",
-    iconBg: "#accbe1",
-    date: "May 2023 - Nov 2023",
+    title: "Tech Consultant",
+    company_name: "FlexiLoans",
+    iconBg: "#b7e4c7",
+    date: "May 2025 - July 2025",
     points: [
-      "Managing the workflow of the team",
-      "Collaborating with cross-functional Departments including Mechanics, Avionics & Computer Science to create flawless sounding rockets",
-      "Implementing Management techniques for Smooth and cost effective Functionlity",
-      "Participating in Expo's and Showcasing Projects",
+      "Contributed to cross-platform app development using React Native, building and optimizing multiple screens aligned with the company’s design system and performance goals.",
+      "Collaborated with product managers and backend teams to integrate REST APIs and deliver seamless user experiences in key financial workflows.",
+      "Improved code maintainability and UI consistency by implementing reusable components and adhering to best practices in state management and modular architecture.",
+      "Participated in agile development cycles, actively engaging in daily stand-ups, sprint reviews, and QA testing to ensure timely feature delivery.",
+      "Gained exposure to fintech app development principles, enhancing understanding of secure data handling, user authentication, and customer-centric design.",
     ],
   },
   {
@@ -180,7 +186,19 @@ export const experiences = [
       "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-      "Flawless Integration of a Chat System in a project",
+      "Flawless Integration of a Chat System in a project.",
+    ],
+  },
+  {
+    title: "Management",
+    company_name: "Team Sammard",
+    iconBg: "#accbe1",
+    date: "May 2023 - Nov 2023",
+    points: [
+      "Managing the workflow of the team",
+      "Collaborating with cross-functional Departments including Mechanics, Avionics & Computer Science to create flawless sounding rockets",
+      "Implementing Management techniques for Smooth and cost effective Functionlity",
+      "Participating in Expo's and Showcasing Projects",
     ],
   },
 ];
@@ -188,42 +206,42 @@ export const experiences = [
 export const projects = [
   {
     theme: "btn-back-red",
-    name: "Video Conferencing App",
+    name: "MeetUp",
     description:
       "Developed a Full-Stack web application that enables you to video chat in real time",
     link: "https://meet-up-ruddy.vercel.app/",
   },
   {
     theme: "btn-back-black",
-    name: "Podcast App",
+    name: "Interview-Prep",
     description:
-      "Developing an AI SaaS platform that lets you create and upload Podcast using OpenAI's services.  Here is the GitHub Repository Link",
-    link: "https://github.com/RaizelShah/PodMaven",
-  },
-  {
-    theme: "btn-back-green",
-    name: "GPT-3",
-    description:
-      "Created a Modern UI/UX Front-End Application to showcase the power of AI",
-    link: "https://raizelshah.github.io/GPT-3/",
+      "An AI-powered platform for preparing for mock interviews.",
+    link: "https://prep-wise-livid.vercel.app/sign-in",
   },
   {
     theme: "btn-back-blue",
-    name: "Note Keeping App",
+    name: "DevHub",
     description:
-      "Designed and built a simple Note Keeping App that allows you to keep track of your notes for the ongoing session",
-    link: "https://raizelshah.github.io/Keeper-App/",
+      "AI-powered career companion mobile application for developers, providing job listings, coding challenges, and personalized career guidance.",
+    link: "https://github.com/RaizelShah/DevHub",
   },
   {
-    theme: "btn-back-pink",
-    name: "Nike Landing page",
+    theme: "btn-back-green",
+    name: "RealState",
     description:
-      "Built a Landing page for Nike Shoes showcasing a sleek and Modern UI/UX. Here's a link to GitHub Respository",
-    link: "https://github.com/RaizelShah/nike",
+      "A full-stack Real Estate application with React Native, featuring Google authentication, dynamic property listings, and user profiles.",
+    link: "https://github.com/RaizelShah/RealState",
   },
   {
     theme: "btn-back-yellow",
-    name: "Landing page for Pet Care Services Company",
+    name: "Algorithm-Visualizer",
+    description:
+      "Visualizes various path finding algorithms such as A* (A-Star), DFS, BFS, and more with multiple modes.",
+    link: "https://pathfinding-visualizer-eight.vercel.app/",
+  },
+  {
+    theme: "btn-back-pink",
+    name: "Landing page for MyPerro",
     description:
       "Developed a Landing Page showcasing a Company that offers Pet Care Services. Here is a GitHub Repository Link",
     link: "https://github.com/RaizelShah/My-Perro",

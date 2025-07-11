@@ -29,6 +29,7 @@ import getpostman from './getpostman.svg'
 import photoshop from './photoshop.png'
 import linux from './linux.png'
 import instagram from './instagram.svg'
+import reactNative from './reactNative.svg'
 
 export {
     css,
@@ -61,5 +62,6 @@ export {
     getpostman,
     photoshop,
     linux,
-    instagram
+    instagram,
+    reactNative
 }
