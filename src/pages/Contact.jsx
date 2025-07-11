@@ -72,7 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container">
+    <section className="relative flex lg:flex-row flex-col max-container dark:bg-gray-900 dark:text-white">
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
@@ -83,12 +83,12 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="w-full flex flex-col gap-7 mt-14"
         >
-          <label className="text-black-500 font-semibold">
+          <label className="text-black-500 dark:text-white font-semibold">
             Name
             <input
               type="text"
               name="name"
-              className="input"
+              className="input dark:bg-gray-800 dark:text-white"
               placeholder="Eg. Rahul"
               required
               value={form.name}
@@ -97,12 +97,12 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-black-500 dark:text-white font-semibold">
             Email
             <input
               type="email"
               name="email"
-              className="input"
+              className="input dark:bg-gray-800 dark:text-white"
               placeholder="Eg. Rahul@gmail.com"
               required
               value={form.email}
@@ -111,12 +111,12 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <label className="text-black-500 font-semibold">
+          <label className="text-black-500 dark:text-white font-semibold">
             Your Message
             <textarea
               name="message"
               rows="4"
-              className="textarea"
+              className="textarea dark:bg-gray-800 dark:text-white"
               placeholder="I'd be happy to hear from you. Share your thoughts or questions here."
               value={form.message}
               onChange={handleChange}

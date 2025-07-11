@@ -61,7 +61,7 @@ const Home = () => {
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
-    <section className="w-full h-screen relative">
+    <section className="w-full h-screen relative dark:bg-gray-900 dark:text-white">
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
@@ -104,7 +104,7 @@ const Home = () => {
           src={!isPlayingMusic ? soundoff : soundon}
           alt="sound"
           className="w-10 h-10 cursor-pointer object-contain"
-          onClick={()=>setIsPLayingMusic(!isPlayingMusic)}
+          onClick={() => setIsPLayingMusic(!isPlayingMusic)}
         />
       </div>
     </section>

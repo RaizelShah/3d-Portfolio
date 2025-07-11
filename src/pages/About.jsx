@@ -11,7 +11,7 @@ import { github, linkedin, instagram } from "../assets/icons";
 
 const About = () => {
   return (
-    <section className="max-container">
+    <section className="max-container dark:bg-gray-900 dark:text-white">
       <h1 className="head-text">
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
@@ -19,7 +19,7 @@ const About = () => {
         </span>
       </h1>
 
-      <div className="mt-5 flex flex-col gap-3 text-slate-500 items-center justify-center">
+      <div className="mt-5 flex flex-col gap-3 text-slate-500 dark:text-slate-300 items-center justify-center">
         <p className="text-justify">
           I'm a final-year Computer Science student at Vellore Institute of
           Technology with hands-on industry experience in software development.
@@ -65,7 +65,7 @@ const About = () => {
 
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
-        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+        <div className="mt-5 flex flex-col gap-3 dark:text-slate-300 text-slate-500">
           <p>
             I've worked with diverse set of teams, leveling up my skills and
             teaming up with smart & Experienced people. Here's a rundown:
